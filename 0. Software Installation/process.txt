@@ -1,0 +1,15 @@
+1. Download
+   https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
+2. Run on CMD 
+   sqlplus / as sysdba;
+   alter session set container=orclpdb;
+   alter pluggable database open;
+   alter pluggable database orclpdb save state;
+   alter user hr identified by hr account unlock;
+   /
+3. Download
+   https://www.oracle.com/tools/downloads/sqldev-downloads.html
+4. Connect on Oracle SQL Dev
+   as hr
+   as sys
+   as system
